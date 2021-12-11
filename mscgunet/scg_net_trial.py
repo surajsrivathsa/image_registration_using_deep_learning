@@ -11,7 +11,7 @@ Original file is located at
 
 from google.colab import drive
 drive.mount('/content/drive')
-!pip install voxelmorph 
+
 import numpy as np
 from matplotlib import pyplot as plt
 import neurite as ne
@@ -48,14 +48,6 @@ print(torch.__version__)
 
 import tensorflow as tf
 import math
-
-!pip install voxelmorph 
-!pip install -q torch-scatter -f https://pytorch-geometric.com/whl/torch-1.9.0+cu102.html
-!pip install -q torch-sparse -f https://pytorch-geometric.com/whl/torch-1.9.0+cu102.html
-!pip install -q torch-cluster -f https://pytorch-geometric.com/whl/torch-1.9.0+cu102.html
-!pip install -q torch-geometric
-
-!pip install wandb --upgrade
 import wandb
 os.environ["WANDB_API_KEY"] = "4d55d2ea028525eadeb537494a02bf9ce8ead8f3"
 wandb.login()
@@ -92,7 +84,6 @@ file_names_t2 = sorted(glob.glob(os.path.join(data_path_t2, "*.nii.gz")))
 
 print(len(file_names_t1))
 
-!ls -ltr data_path_t1
 
 def load_4D(name):
     # (256, 256, 256)
