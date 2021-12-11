@@ -1,0 +1,6 @@
+*.txt
+*.nii.gz
+*.csv
+*.xlsx
+*.pyc
+*.log
