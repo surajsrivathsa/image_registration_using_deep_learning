@@ -11,7 +11,7 @@ Deep Learning based methods
 - ICNET (Zhang et al., [2018]((https://arxiv.org/pdf/1809.03443.pdf))
   
 Traditional Methods
-- ANTS ([Avants et al.]((http://stnava.github.io/ANTs/))
+- ANTS ([Avants et al.](http://stnava.github.io/ANTs/))
 - FSL (Jenkinson et al., [2002]((https://pubmed.ncbi.nlm.nih.gov/12377157/))
 
 Phase 2a: Proposal of new deep learning based method MSCGUNet (Multiscale Self Constructing Graph UNet)
