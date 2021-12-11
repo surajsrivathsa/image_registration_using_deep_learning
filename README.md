@@ -5,14 +5,14 @@ Description: This project is split into two phases.
 Phase 1: Comparitive study of SOTA Deformable Intra and Intermodal Image Registration Techniques vs Traditional Methods (Chatterjee et al., [2020](https://www.researchgate.net/publication/349588959_A_Comparative_Study_of_Deep_Learning_Based_Deformable_Image_Registration_Techniques))
 
 Deep Learning based methods
-- ADMIR (Tang et al., [2020]((https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9062524))
-- Voxelmorph (Balakrishnan et al., [2018]((https://ieeexplore.ieee.org/document/8633930))
-- FIRE (Wang et al., [2019]((https://arxiv.org/pdf/1907.05062.pdf))
-- ICNET (Zhang et al., [2018]((https://arxiv.org/pdf/1809.03443.pdf))
+- ADMIR (Tang et al., [2020](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9062524))
+- Voxelmorph (Balakrishnan et al., [2018](https://ieeexplore.ieee.org/document/8633930))
+- FIRE (Wang et al., [2019](https://arxiv.org/pdf/1907.05062.pdf))
+- ICNET (Zhang et al., [2018](https://arxiv.org/pdf/1809.03443.pdf))
   
 Traditional Methods
 - ANTS ([Avants et al.](http://stnava.github.io/ANTs/))
-- FSL (Jenkinson et al., [2002]((https://pubmed.ncbi.nlm.nih.gov/12377157/))
+- FSL (Jenkinson et al., [2002](https://pubmed.ncbi.nlm.nih.gov/12377157/))
 
 Phase 2a: Proposal of new deep learning based method MSCGUNet (Multiscale Self Constructing Graph UNet)
 - Multiscale Image input to handle different amounts of deformations easily (Chatterjee et al., [2020](https://arxiv.org/pdf/2006.10802.pdf))
