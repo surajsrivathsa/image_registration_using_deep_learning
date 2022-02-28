@@ -23,3 +23,18 @@ Phase 2b: Proposal of direct optimization of deformation field using gradient de
 - How far will we get with simple gradient descent on deformation field directly and without using other networks?
 - Tried with different optimizers and epochs
 - Surprisingly good results and performed close to ANTs and other Deep learning based models
+
+Preprocessing Steps
+
+A) Preprocessing with Freesurfer
+We perform autorecon1 and steps from 1 till 7 : 
+1) Motion Correction and Conform
+2) NU (Non-Uniform intensity normalization)
+3) Talairach transform computation
+4) Intensity Normalization 1
+5) Skull Strip
+6) EM Register (linear volumetric registration)
+7) CA Intensity Normalization
+
+B) Affine registration with ANTS 
+- use antsReg.py to register mvoing image to fixed image
